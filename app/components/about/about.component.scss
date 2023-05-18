@@ -1,0 +1,25 @@
+@import "../../styles/vars";
+@import '../../styles/global';
+
+.about {
+
+
+    &__heading {
+        margin-top: 2rem;
+        color: $dark_green;
+        font-family: $font_black;
+        font-size: 1.75rem;
+
+    }
+
+
+
+    &__content {
+        margin: 0 0 4rem;
+    }
+
+    ul {
+        margin-top: 1.5rem;
+    }
+
+}

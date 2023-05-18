@@ -1,0 +1,62 @@
+@import "./vars";
+
+
+
+section {
+
+    padding: 0 1.5rem;
+
+    @media screen and (min-width: 591px) {
+        padding: 2rem 2rem;
+    }
+}
+
+.seperator {
+    width: 5rem;
+    position: relative;
+    margin-top: -0.725rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid $green ;
+}
+
+p {
+    font-family: $font_regular;
+    font-size: $font_size_md;
+    color: $textColor;
+    margin-top: 1.25rem;
+    line-height: 1.55;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.heading {
+    font-size: 3rem;
+    color: $dark_green;
+    margin-top: 1rem;
+    font-family: $font_black;
+    font-weight: 900;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    font-family: $font_black;
+    color: $dark_green;
+    margin: 2rem 0 0;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+li {
+    font-family: $font-regular;
+    font-size: 19.44px;
+    ;
+}

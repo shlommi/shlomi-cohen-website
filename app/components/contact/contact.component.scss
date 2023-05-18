@@ -1,0 +1,49 @@
+@import "../../styles/global";
+@import "../../styles/vars";
+
+.contact {
+
+    margin-bottom: 4rem;
+    padding-bottom: 5rem;
+
+    h2 {
+        margin: 2rem 0;
+    }
+
+    h3 {
+        font-family: $font-regular;
+        color: $dark_green;
+        font-size: $font_size_md;
+        font-weight: bold;
+        margin: 3rem 0;
+        letter-spacing: 2px;
+
+    }
+
+    &__svg {
+        text-align: center;
+    }
+
+
+    &__links {
+
+        &-icons {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            svg {
+                fill: $dark_green;
+                transition: $transition_time all ease;
+                width: 2rem;
+                height: 2rem;
+                margin: 0 1rem;
+            }
+
+            svg:hover {
+                fill: $green;
+            }
+        }
+    }
+
+}

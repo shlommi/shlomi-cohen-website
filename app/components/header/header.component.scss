@@ -1,0 +1,94 @@
+@import "../../styles/vars";
+
+
+
+.header {
+
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $dark_green;
+    color: $white_green ;
+    min-height: 100vh;
+    text-align: center;
+    transition: $transition_time all ease;
+    z-index: 999;
+
+    h2 {
+        font-family: $font_light;
+        margin-bottom: 0.275rem;
+    }
+
+    h4 {
+        font-family: $font-regular;
+    }
+
+    &__image-container {
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        overflow: hidden;
+        margin: 50px auto 18px;
+    }
+
+
+
+    &__nav {
+        nav {
+
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    padding: 10px 0;
+
+                    a {
+                        color: $white_green;
+                        text-decoration: none;
+                        transition: $transition_time all ease;
+
+                        &:hover {
+                            color: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        left: -300px;
+
+        &--active {
+            left: 0;
+        }
+    }
+}
+
+.menu-btn-container {
+    display: none;
+
+    button {
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        outline: none;
+        border: transparent;
+        background-color: transparent;
+        cursor: pointer;
+
+        svg {
+            fill: $dark_green;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    @media screen and (max-width:991px) {
+        display: block;
+    }
+}

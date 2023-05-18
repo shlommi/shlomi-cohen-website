@@ -1,0 +1,37 @@
+// 	COLORS
+
+$textColor :#1a2925;
+$green :#2f7a79;
+$dark_green :#133030;
+$white_green :#F2FAFA;
+$background_white :#FEFFFF;
+
+// Fonts
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../../assets/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../../assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("../../assets/fonts/Montserrat-Black.ttf");
+}
+
+$font_size_sm :16px;
+$font_size_md :19.44px;
+$font_light :"Montserrat-Light",
+sans-serif;
+$font_regular :"Montserrat-Regular",
+sans-serif;
+$font_black :"Montserrat-Black",
+sans-serif;
+
+// 	ANIMATION
+
+$transition_time :300ms;
+$cubic_style: cubic-bezier(0.165, 0.84, 0.44, 1);
